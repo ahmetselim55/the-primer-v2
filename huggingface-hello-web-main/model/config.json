@@ -1,0 +1,15 @@
+{
+    "model_type": "LogisticRegression",
+    "features": [
+        "seviye",
+        "karar_suresi",
+        "onceki_yanlis_sayisi",
+        "ipucu_sayisi",
+        "sahne_no"
+    ],
+    "target": "ipucu_gerekli",
+    "metrics": {
+        "accuracy": 1.0,
+        "f1_score": 0.0
+    }
+}
